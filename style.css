@@ -32,7 +32,7 @@ footer {
 }
 
 img {
-  width: 40%;
+  width: 30%;
   border-radius: 5px;
   padding: 10px;
   border: 1px solid gray;
@@ -72,7 +72,7 @@ h3 {
 .intro-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
-  margin: 20px 60px 20px 60px;
+  margin: 0px 60px 20px 60px;
 }
 
 .p-text {
