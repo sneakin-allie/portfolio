@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>allison-schulman-portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <header>
+    <h1>Allison Schulman</h1>
+    <h2>Web Developer</h2>  
+  </header>  
+
+  <main>
+    <section class="group">
+      <div class="item1">
+        <img src="santa-fe-pic.jpg" alt="allison headshot" class="center"> 
+      </div>  
+
+    <!-- Intro with who I am and where I'm located -->
+      <div class="item1">
+        <h3>Intro</h3>
+        <div class="p-text">
+          <p>Hi! I'm Allison Schulman. My pronouns are she/her.</p>
+          <p>I'm a Web Developer living in Connecticut and open to remote work. I lived in San Francisco, California for 10 years before moving back home to Connecticut to care for my family during COVID.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me section describing my passion for web dev, willingness to work with others and other interests -->
+    <div class="about-me">
+      <h3>About Me</h3>
+          <div class="p-text">
+            <p>I graduated from the University of Connecticut with an Environmental Biology degree and have always been fascinated by math and science.</p>
+            <p>After graduation, I craved adventure and moved out west to San Francisco, California. I worked in the technology industry for a handful of years until moving into the non-profit industry in an effort to contribute to the community around me in a meaningful way. Most recently, I managed a Resource Center for individuals in the healthcare safety net, helping them overcome social-economic barriers and reach their life goals.</p>
+            <p>Due to COVID, and I decided to move back home to Connecticut to care for my family. As I considered the next step in my career, I became curious about web development and enrolled in Bloc's online web development program (best decision ever!). I'm thrilled to be challenging myself, building new skills, and exercising the logic and problem-solving parts of my brain again. I'm looking forward to joining a team and diving deeper into web development ASAP!</p>
+              <div class="group">
+                <div class="item1 list">
+                  <p class="center-text">Areas of interest:</p>
+                  <!-- unordered list -->
+                  <ul>
+                    <li>Environmental sustainability</li>
+                    <li>Music</li>
+                    <li>Design</li>
+                    <li>Social justice & equality</li>
+                    <li>Health & wellness</li>
+                  </ul> 
+                </div>
+                <div class="item1 list">
+                  <p class="center-text">Skills & services:</p>
+                  <!-- unordered list -->
+                  <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
+                    <li>jQuery</li>
+                    <li>Node.js</li>
+                    <li>PostgreSQL</li>
+                  </ul> 
+                </div>
+              </div>
+          </div>    
+    </div> 
+
+    <!-- Project section (w/ placeholders for now) -->
+    <section>
+    <h3>Projects</h3>
+      <div class="group">
+
+        <div class="item1 center p-text">
+          <h3>THORNBERRY: Wildlifer Tracker App</h3>
+          <a href="https://wildlifer-client.vercel.app/" target="_blank">
+            <img src="sightings-list.png" alt="screenshot of animal sighting" class="center">
+          </a>
+            <p class="text-left">This full stack application was made as my second capstone project for the Bloc/Thinkful Web Development course. It is a wildlife tracker application that nature lovers can use to keep track of animal sightings. Users can upload information about the animal, location, date, notes, and a photo through the Cloudinary Widget. Inspiration for this application came from my parents' need to keep track of bird and bear activity in their backyard. This application was built to meet the specifications laid out by the Bloc/Thinkful course.</p>
+            <p class="text-left">The front end of this project was built in React, using Router, class components, state, props, vanilla CSS, and the Cloudinary Widget. An API was created that handled all promises necessary to interact with the back-end API database.</p>
+            <p class="text-left">The back end of this project was built using Node.js, Express, PostgreSQL, and Knex. RESTful APIs were used along with middleware including Morgan, Express.json, Helmet, and CORS. CORS was implemented to ensure connection between the front end application and back end API.</p>
+            <p class="text-left"><a href="https://wildlifer-client.vercel.app/" target="_blank">Link to Live App</a></p>
+            <p class="text-left"><a href="https://github.com/sneakin-allie/thornberry-client" target="_blank">Link to Github Repo</a></p>
+        </div>
+        <div class="item1 center p-text">
+          <h3>SETBREAK: Concert Tracker App</h3>
+          <a href="https://setbreak-sneakin-allie.vercel.app/" target="_blank">
+            <img src="concert-collection.png" alt="screenshot of concert list" class="center">
+          </a>    
+              <p class="text-left">This application was made for my first capstone project for the Bloc/Thinkful Web Development course. It is a concert tracker application that music fans can use to keep track of concerts they've attended. Users can upload details about the concert including artist, venue, date, highlights, and notes. Inspiration for this application came from my friends' desire to recount concerts from the past year. This application was built to meet the specifications laid out by the Bloc/Thinkful course.</p>
+              <p class="text-left">The front end of this project was built in React, using Router, class components, state, props, and vanilla CSS. An API was created that handled all promises necessary to interact with the back-end API database.</p>
+              <p class="text-left">The back end of this project was built using Node.js, Express, PostgreSQL, and Knex. RESTful APIs were used along with middleware including Morgan, Express.json, Helmet, and CORS. CORS was implemented to ensure connection between the front end application and back end API.</p>
+              <p class="text-left"><a href="https://setbreak-sneakin-allie.vercel.app/" target="_blank">Link to Live App</a></p>
+              <p class="text-left"><a href="https://github.com/sneakin-allie/setbreak-client" target="_blank">Github Repo</a></p>
+        </div>
+      </div>
+
+      <div class="group">
+        <div class="item1 center p-text">
+          <h3>BOOKWORM: NYT Bestseller App</h3>
+          <a href="https://sneakin-allie.github.io/nyt-books-api-app/" target="_blank">
+            <img src="bookworm-book-list.png" alt="screenshot of book list" class="center">
+          </a>     
+            <p class="text-left">Bookworm is an application that allows readers to quickly and easily access book recommendations from the New York Times Bestseller lists. Users enter a date and receive a list of ten books, five fiction and five non-fiction, from the NYT Bestseller List from that date. Inspiration for this application came from being a voracious reader and wanting access to quick recomemndations.</p>
+            <p class="text-left">This project was my first experience integrating with a third party API; the New Yorks Times Books API. I drafted a proposal, write users stories, created user flows and wireframes, implemented a minimum viable project (MVP), gathered user feedback, iterated, and styled the final version with vanilla CSS.</p>
+            <p class="text-left"><a href="https://sneakin-allie.github.io/nyt-books-api-app/" target="_blank">Link to Live App</a></p>
+            <p class="text-left"><a href="https://github.com/sneakin-allie/quiz-app" target="_blank">Link to Github Repo</a></p>
+        </div>
+        <div class="item1 center p-text">
+          <h3>NEW ENGLAND TRIVIA: Quiz App</h3>
+          <a href="https://sneakin-allie.github.io/quiz-app/" target="_blank">
+            <img src="ne-quiz-app.png" alt="screenshot of quiz question" class="center">     
+          </a>
+            <p class="text-left">The New England Trivia application I built an interactive quiz app from scratch, showcasing my ability to use jQuery to create event listeners and alter web pages. Project requirements included user experience requirements, technical requirements and process requirements.</p>
+            <p class="text-left">This was my first experience building an interactive quiz application from scratch. It was my first time using jQuery to create event listeners and alter web pages. Project requirements included user experience, technical, and process requirements.</p>
+            <p class="text-left"><a href="https://sneakin-allie.github.io/quiz-app/" target="_blank">Link to Live App</a></p>
+            <p class="text-left"><a href="https://github.com/sneakin-allie/quiz-app" target="_blank">Link to Github Repo</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section with links -->
+    <section>
+      <h3>Contact</h3>
+      <div class="group">
+        <div class="item1 list">
+          <p class="p-text">Let's connect! Reach out:</p>
+          <!-- ordered list -->
+          <ol>
+            <li><a href="https://www.linkedin.com/in/allisonschulman/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/sneakin-allie" target="_blank">GitHub</a></li>
+            <li><a href="mailto:allison.d.schulman@gmail.com" target="_blank">Email</a></li>
+          </ol>
+        </div>  
+
+        <!-- Functional contact form -->
+        <div class="item1">
+          <form action="https://formspree.io/f/xyybweww" method="POST">
+            <label for="name">Name:</label>
+              <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+              <input type="text" name="_replyto" id="email">
+            <label for="message">Your message:</label>
+              <textarea id="message" name="message"></textarea>
+            <!-- Submit button on form -->
+            <button type="submit">Submit</button>
+          </form>
+        </div>  
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2021 Allison Schulman. All rights reserved.</p> 
+  </footer>  
+</body> 
+
+</html>
